@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   postgres:
-    container_name: balance
+    container_name: balance-fastify
     image: postgres
     ports:
       - 5432:5432
